@@ -1,0 +1,12 @@
+{application, ertl_433,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ertl_433_app, []}},
+  {env, []}
+ ]}.
